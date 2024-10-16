@@ -1,0 +1,48 @@
+:root {
+    --color1: orange;
+    --color2: rgb(187, 65, 0);
+}
+
+@media screen and (max-width: 800px) {
+    :root {
+        --color1: blue;
+        --color2: yellow;
+    }
+}
+
+.square1 {
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    position: absolute;
+    z-index: 1;
+}
+
+.square2 {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    z-index: 0;
+}
+
+.square3 {
+    height: 300px;
+    width: 300px;
+    background-color: var(--color2, green);
+    position: relative;
+    left: 0;
+    top: 450px;
+}
+
+.square4 {
+    height: 300px;
+    width: 300px;
+    background-color: var(--color1);
+    position: absolute;
+    left: 150px;
+    top: 600px;
+
+}

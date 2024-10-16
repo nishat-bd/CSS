@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    color: #333;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    /* Use Flexbox to align profile and details side by side */
+    width: 1000px;
+    background-color: #ffffff;
+    margin: 5px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow */
+    border-radius: 10px;
+    /* Rounded corners */
+    overflow: hidden;
+    height: 100vh;
+    /* Ensure container takes the full height of the viewport */
+}
+
+.profile {
+    width: 35%;
+    background-color: rgb(48, 48, 48);
+    /* Full black background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    /* Full height of the viewport */
+}
+
+.profile img {
+    height: 170px;
+    width: 170px;
+    border: 5px white solid;
+    border-radius: 50%;
+    margin-top: 50px;
+    transition: transform 0.3s;
+    /* Smooth transition for hover effect */
+}
+
+.profile img:hover {
+    transform: scale(1.1);
+    /* Hover effect for profile image */
+}
+
+.profile h1 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.profile h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: rgb(174, 174, 174);
+    font-style: italic;
+}
+
+.profile p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.details {
+    width: 65%;
+    padding: 20px 30px;
+    overflow-y: auto;
+    /* In case content overflows, allow scrolling */
+}
+
+.section h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #1e88e5;
+    /* Blue heading color */
+    position: relative;
+}
+
+.section h1::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #1e88e5;
+    /* Ruler color */
+    margin-top: 8px;
+    /* Space between text and ruler */
+}
+
+.section ul,
+.section p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #666;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.section ul li::before {
+    content: "\2022";
+    /* Adds a bullet before each list item */
+    color: #1e88e5;
+    /* Bullet color */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.section ul li:hover {
+    color: #000;
+    /* Make the text bolder on hover */
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navigation Menu</title>
+    <style>
+        /* Styling the navigation menu */
+        nav {
+            background-color: #333;
+            /* Dark background for the menu */
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            /* Clear floating elements */
+        }
+
+        /* Styling the list inside the nav */
+        nav ul {
+            list-style-type: none;
+            /* Remove bullet points from the list */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling each menu item */
+        nav ul li {
+            float: left;
+            /* Float the items to the left for horizontal alignment */
+        }
+
+        /* Styling the links inside the list */
+        nav ul li a {
+            display: block;
+            color: white;
+            /* White text color */
+            text-align: center;
+            padding: 14px 20px;
+            /* Space around the text */
+            text-decoration: none;
+            /* Remove underline from links */
+        }
+
+        /* Change the background color on hover */
+        nav ul li a:hover {
+            background-color: #575757;
+            /* Dark gray hover effect */
+        }
+
+        /* Clear floats after the menu */
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Clear floats after navigation -->
+    <div class="clear"></div>
+
+    <!-- Page content for demonstration -->
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to the homepage!</p>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Learn more about us.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>We offer a range of services.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch with us.</p>
+    </section>
+
+</body>
+
+</html>

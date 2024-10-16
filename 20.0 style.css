@@ -1,0 +1,32 @@
+.paragraph {
+    background-color: black;
+    color: white;
+    height: 400px;
+    width: 35%;
+    overflow: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.tooltip {
+    position: relative;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}

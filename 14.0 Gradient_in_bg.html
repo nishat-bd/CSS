@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Gradient Examples</title>
+    <style>
+        /* Linear Gradient from top to bottom */
+        .linear-gradient {
+            height: 200px;
+            background: linear-gradient(to bottom, #ff0000, #00e20b);
+            text-align: center;
+            color: white;
+            line-height: 200px;
+            font-size: 1.5em;
+        }
+
+        /* Linear Gradient from left to right */
+        .linear-gradient-lr {
+            height: 200px;
+            background: linear-gradient(to right, #00ff26, #2575fc);
+            text-align: center;
+            color: white;
+            line-height: 200px;
+            font-size: 1.5em;
+        }
+
+        /* Diagonal Linear Gradient */
+        .linear-gradient-diagonal {
+            height: 200px;
+            background: linear-gradient(45deg, #c206f6, #ee0979);
+            text-align: center;
+            color: white;
+            line-height: 200px;
+            font-size: 1.5em;
+        }
+
+        /* Radial Gradient */
+        .radial-gradient {
+            height: 200px;
+            background: radial-gradient(circle, #ff9a9e, #fad0c4);
+            text-align: center;
+            color: black;
+            line-height: 200px;
+            font-size: 1.5em;
+        }
+
+        /* Radial Gradient with ellipse */
+        .radial-gradient-ellipse {
+            height: 200px;
+            background: radial-gradient(ellipse, #89f7fe, #66a6ff);
+            text-align: center;
+            color: white;
+            line-height: 200px;
+            font-size: 1.5em;
+        }
+
+        /* Radial Gradient with hard edge */
+        .radial-gradient-hard {
+            height: 200px;
+            background: radial-gradient(circle, #89f7fe 30%, #66a6ff 30%, #0044cc 60%);
+            text-align: center;
+            color: white;
+            line-height: 200px;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="linear-gradient">Linear Gradient (Top to Bottom)</div>
+    <div class="linear-gradient-lr">Linear Gradient (Left to Right)</div>
+    <div class="linear-gradient-diagonal">Linear Gradient (Diagonal)</div>
+    <div class="radial-gradient">Radial Gradient (Circle)</div>
+    <div class="radial-gradient-ellipse">Radial Gradient (Ellipse)</div>
+    <div class="radial-gradient-hard">Radial Gradient (Hard Edge)</div>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+body {
+    background-image: url('BG.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* 
+    or we can use all of them within one line
+    (Shown below)
+    */
+    background: url('BG.jpg') no-repeat fixed
+}

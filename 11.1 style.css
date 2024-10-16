@@ -1,0 +1,33 @@
+.a:hover {
+    color: greenyellow;
+}
+
+.a:hover {
+    background-color: greenyellow;
+
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+input:focus {
+    background-color: antiquewhite;
+    width: 200px;
+}
+
+.Ban::first-letter {
+    font-size: 2rem;
+}
+
+p:nth-child(odd) {
+    color: red;
+    background-color: black;
+}
+
+::selection {
+    color: white;
+    background: #000;
+}

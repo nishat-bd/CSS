@@ -1,0 +1,20 @@
+h2,
+h1 {
+    color: blueviolet;
+}
+
+div>p {
+    color: red;
+}
+
+div>section {
+    color: rgb(0, 178, 9);
+}
+
+div+p {
+    background-color: aquamarine;
+}
+
+div+p~p {
+    background-color: slateblue;
+}

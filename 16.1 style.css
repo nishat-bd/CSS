@@ -1,0 +1,33 @@
+#nevmenu {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+
+#nevmenu ul {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+#nevmenu ul li {
+    list-style-type: none;
+    padding: 10px;
+    float: left;
+
+}
+
+#nevmenu ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+#nevmenu ul li a:hover {
+    transform: scale(1.5);
+}

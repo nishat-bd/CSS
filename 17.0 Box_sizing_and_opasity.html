@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box sizing</title>
+    <style>
+        .div1 {
+            background-color: green;
+            height: 400px;
+            width: 50%;
+            size: 20px;
+            padding: 10px;
+            box-sizing: border-box;
+            float: left;
+            opacity: 1;
+        }
+
+        .div1 p {
+            opacity: 1;
+        }
+
+        .div2 {
+            height: 400px;
+            width: 50%;
+            padding: 10px;
+            background-image: url('BG.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            box-sizing: border-box;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
+            Vivamus quis orci ut dolor feugiat cursus. Fusce euismod, felis ac blandit luctus,
+            risus nisi pretium neque, ac aliquam metus ante sit amet mauris.
+            Curabitur maximus, magna non interdum laoreet, est elit tempus lectus,
+            non fermentum tortor lorem nec ligula. Phasellus mollis ipsum sit amet leo
+            cursus, at viverra risus faucibus. In efficitur tincidunt nibh non fermentum.
+            Donec ac magna at sapien gravida laoreet nec eget erat. Sed convallis justo nec
+            enim tincidunt, nec vehicula eros vehicula. Cras at metus sed velit consequat luctus.</p>
+    </div>
+
+    <div class="div2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+        veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+        porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+        adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore
+        et dolore magnam aliquam quaerat voluptatem.</div>
+</body>
+
+</html>

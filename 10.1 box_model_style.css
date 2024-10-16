@@ -1,0 +1,35 @@
+#section1 {
+    background-color: green;
+    width: 200px;
+    margin: 10px 150px;
+}
+
+#section2 {
+    background-color: red;
+    width: 250px;
+    margin-left: 100px;
+}
+
+#section3 {
+    padding: 50px;
+    width: 0px;
+    background-color: aqua;
+}
+
+#section4 {
+    background-color: blue;
+}
+
+#highlight {
+    background-color: greenyellow;
+    width: fit-content;
+}
+
+#bordertest {
+    border-left: 5px blue solid;
+    border-right: 5px red solid;
+    border-top: 5px greenyellow solid;
+    border-bottom: 5px pink solid;
+    width: fit-content;
+    border-radius: 60px;
+}
